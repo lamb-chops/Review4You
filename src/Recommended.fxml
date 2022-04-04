@@ -19,5 +19,10 @@
       <Button layoutX="26.0" layoutY="158.0" mnemonicParsing="false" text="Page2" />
       <Button layoutX="26.0" layoutY="222.0" mnemonicParsing="false" text="Page3" />
       <Button layoutX="26.0" layoutY="275.0" mnemonicParsing="false" text="Page4" />
+      <Pagination layoutX="165.0" layoutY="25.0" prefHeight="193.0" prefWidth="425.0" />
+      <TextArea layoutX="172.0" layoutY="20.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
+      <Pagination layoutX="165.0" layoutY="235.0" prefHeight="193.0" prefWidth="425.0" />
+      <TextArea layoutX="179.0" layoutY="224.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
    </children>
 </AnchorPane>
+

@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.media.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.web.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane layoutX="-67.0" layoutY="-70.0" prefHeight="200.0" prefWidth="309.0">
-         <children>
-            <Label layoutX="137.0" layoutY="115.0" text="Hi" />
-         </children>
-      </AnchorPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#88c2f8" height="600.0" stroke="#88c2f8" strokeType="INSIDE" width="150.0" />
+      <TextArea layoutX="26.0" layoutY="29.0" prefHeight="51.0" prefWidth="98.0" text="Review 4 You&#10;(LOGO HERE)" />
+      <Button layoutX="26.0" layoutY="100.0" mnemonicParsing="false" text="Page1" />
+      <Button layoutX="26.0" layoutY="158.0" mnemonicParsing="false" text="Page2" />
+      <Button layoutX="26.0" layoutY="222.0" mnemonicParsing="false" text="Page3" />
+      <Button layoutX="26.0" layoutY="275.0" mnemonicParsing="false" text="Page4" />
    </children>
 </AnchorPane>

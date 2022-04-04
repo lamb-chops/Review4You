@@ -1,0 +1,10 @@
+- Home page:
+	- make banner or css label to look good
+	- can we do a slide show of reviews and recommendations?
+			not even sure if po
+
+- Recommended page:
+
+- Review page:
+
+- FAQ page:
