@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="13.0" layoutY="14.0" prefHeight="53.0" prefWidth="774.0" style="-fx-border-color: grey;" />
+      <Button layoutX="25.0" layoutY="28.0" mnemonicParsing="false" text="Home" />
+      <Button layoutX="731.0" layoutY="29.0" mnemonicParsing="false" text="FAQs" />
+      <Button layoutX="500.0" layoutY="28.0" mnemonicParsing="false" text="Review a Place" />
+      <Button layoutX="200.0" layoutY="28.0" mnemonicParsing="false" text="Places To Visit" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="80.0" prefHeight="40.0" prefWidth="774.0" style="-fx-border-color: grey; -fx-border-width: 2;" text="Review a Place">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="94.0" layoutY="170.0" prefHeight="214.0" prefWidth="615.0" />
+      <Button layoutX="634.0" layoutY="408.0" mnemonicParsing="false" text="Submit" />
+      <ChoiceBox layoutX="216.0" layoutY="136.0" prefWidth="150.0" />
+      <Label layoutX="135.0" layoutY="140.0" text="Select Place:" />
+   </children>
+</AnchorPane>
