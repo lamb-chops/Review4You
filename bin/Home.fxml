@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.media.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.chart.*?>
@@ -10,7 +11,6 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#88c2f8" height="600.0" stroke="#88c2f8" strokeType="INSIDE" width="150.0" />
@@ -19,5 +19,12 @@
       <Button layoutX="26.0" layoutY="158.0" mnemonicParsing="false" text="Page2" />
       <Button layoutX="26.0" layoutY="222.0" mnemonicParsing="false" text="Page3" />
       <Button layoutX="26.0" layoutY="275.0" mnemonicParsing="false" text="Page4" />
+      <Label layoutX="166.0" layoutY="14.0" prefHeight="42.0" prefWidth="407.0" text="Review 4 You pretty banner or CSS label (insert slogan here)" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="156.0" layoutY="82.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through or slide show of recommend places (hardcoded)" wrapText="true" />
+      <TextArea layoutX="156.0" layoutY="286.0" prefHeight="175.0" prefWidth="398.0" text="Scroll through or slide show of recent places (hardcoded)" wrapText="true" />
    </children>
 </AnchorPane>

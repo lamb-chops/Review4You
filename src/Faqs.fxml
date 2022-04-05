@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Accordion layoutX="144.0" layoutY="56.0" />
+      <Label layoutX="14.0" layoutY="121.0" prefHeight="662.0" prefWidth="774.0" style="-fx-border-color: grey;" />
+      <Label layoutX="13.0" layoutY="14.0" prefHeight="53.0" prefWidth="774.0" style="-fx-border-color: grey;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="74.0" prefHeight="40.0" prefWidth="774.0" style="-fx-border-color: grey; -fx-border-width: 2;" text="Frequently Asked Questions:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="41.0" layoutY="26.0" mnemonicParsing="false" onAction="#navHome" prefHeight="30.0" prefWidth="70.0" text="Home" />
+      <Button layoutX="699.0" layoutY="26.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="FAQs" />
+      <Button layoutX="475.0" layoutY="26.0" mnemonicParsing="false" onAction="#navToReview" prefHeight="30.0" prefWidth="108.0" text="Review a Place" />
+      <Button layoutX="213.0" layoutY="26.0" mnemonicParsing="false" onAction="#navToPlaces" prefHeight="30.0" prefWidth="95.0" text="Places To Visit" />
+      <TextField fx:id="txtFAQ" layoutX="189.0" layoutY="568.0" prefHeight="168.0" prefWidth="425.0" />
+      <Button layoutX="352.0" layoutY="743.0" mnemonicParsing="false" onAction="#processFAQ" text="Ask Your Question" />
+      <Label layoutX="291.0" layoutY="521.0" prefHeight="30.0" prefWidth="220.0" text="Type in your concerns or questions here!" />
+      <Label layoutX="84.0" layoutY="159.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
+      <Label layoutX="583.0" layoutY="166.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
+      <Label layoutX="321.0" layoutY="166.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
+      <Label layoutX="569.0" layoutY="360.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
+      <Label layoutX="321.0" layoutY="349.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
+      <Label layoutX="56.0" layoutY="360.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
+   </children>
+</AnchorPane>
