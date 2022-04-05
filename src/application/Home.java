@@ -12,6 +12,7 @@ public class Home extends Application {
 	//takes primarystage as param before loading and displaying main.fxml
 	public void start(Stage primaryStage) {
 		try {
+			System.out.println("hello");
 			URL url = new File("src/Home.fxml").toURI().toURL();
 			AnchorPane root = FXMLLoader.load(url);
 			Scene scene = new Scene(root,800,600);
