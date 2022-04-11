@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -22,5 +23,16 @@
       <Button layoutX="634.0" layoutY="408.0" mnemonicParsing="false" text="Submit" />
       <ChoiceBox layoutX="216.0" layoutY="136.0" prefWidth="150.0" />
       <Label layoutX="135.0" layoutY="140.0" text="Select Place:" />
+=======
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label alignment="CENTER" layoutX="322.0" layoutY="49.0" prefHeight="37.0" prefWidth="144.0" text="Review" />
+>>>>>>> refs/remotes/origin/test
    </children>
 </AnchorPane>
