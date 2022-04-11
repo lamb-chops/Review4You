@@ -1,6 +1,5 @@
 package application;
-import java.io.File;
-import java.net.URL;
+import java.io.IOException;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -8,22 +7,31 @@ import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
 
 public class Home extends Application {
+	public static Stage stage;
+	public static Scene scene;
+	//function to create primary stage
 	@Override
-	//takes primarystage as param before loading and displaying main.fxml
 	public void start(Stage primaryStage) {
+			stage = primaryStage;
+			scene = createScene();
+			primaryStage.setTitle("Review4You");
+			stage.setScene(scene);
+			stage.show();
+	}
+	public Scene createScene() {
+		AnchorPane root;
+		Scene scene = null;
 		try {
-			System.out.println("hello");
-			URL url = new File("src/Home.fxml").toURI().toURL();
-			AnchorPane root = FXMLLoader.load(url);
-			Scene scene = new Scene(root,800,600);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.setScene(scene);
-			primaryStage.show();
-		} catch(Exception e) {
+			root = (AnchorPane)FXMLLoader.load(getClass().getResource("../Home.fxml")); //pulling main fxml to home page
+			scene = new Scene(root,800,800); //setting size of window
+			return scene;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return scene;
 	}
 	public static void main(String[] args) {
-		launch(args);
+		launch(args); //launching commands
 	}
 }
