@@ -27,7 +27,15 @@ public class HomeController {
 	
 	@FXML
     void navToRecommended(ActionEvent event) {
-
+			Scene scene = recommended.getScene();
+	    	Home.stage.setScene(scene);
+	    }
+		
+	@FXML
+    void navToReview(ActionEvent event) {
+		Scene scene = review.getScene();
+    	Home.stage.setScene(scene);
+    
     }
 
 }
