@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.media.*?>
 <?import javafx.scene.shape.*?>
@@ -11,19 +12,38 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.HomeController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.HomeController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#88c2f8" height="600.0" stroke="#88c2f8" strokeType="INSIDE" width="150.0" />
-      <TextArea layoutX="26.0" layoutY="29.0" prefHeight="51.0" prefWidth="98.0" text="Review 4 You&#10;(LOGO HERE)" />
-      <Button layoutX="26.0" layoutY="100.0" mnemonicParsing="false" onAction="#navToRecommended" text="Recommended" />
-      <Button layoutX="26.0" layoutY="158.0" mnemonicParsing="false" text="Review" />
-      <Button layoutX="29.0" layoutY="210.0" mnemonicParsing="false" onAction="#navToFaqs" text="FAQs" />
-      <Label layoutX="166.0" layoutY="14.0" prefHeight="42.0" prefWidth="407.0" text="Review 4 You pretty banner or CSS label (insert slogan here)" wrapText="true">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <TextArea layoutX="156.0" layoutY="82.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through or slide show of recommend places (hardcoded)" wrapText="true" />
-      <TextArea layoutX="156.0" layoutY="286.0" prefHeight="175.0" prefWidth="398.0" text="Scroll through or slide show of recent places (hardcoded)" wrapText="true" />
+      <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Homepage.png" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="327.0" mnemonicParsing="false" onAction="#navToRecommended" text="Recommended">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recommended.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="419.0" mnemonicParsing="false" text="Review">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Review.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="508.0" mnemonicParsing="false" onAction="#navToFaqs" text="FAQs">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../FAQ.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextArea layoutX="326.0" layoutY="118.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through or slide show of recommend places (hardcoded)" wrapText="true" />
+      <TextArea layoutX="259.0" layoutY="346.0" prefHeight="175.0" prefWidth="398.0" text="Scroll through or slide show of recent places (hardcoded)" wrapText="true" />
    </children>
 </AnchorPane>
