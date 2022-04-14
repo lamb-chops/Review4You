@@ -27,7 +27,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="419.0" mnemonicParsing="false" text="Review">
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="419.0" mnemonicParsing="false" onAction="#navToReview" text="Review">
          <graphic>
             <ImageView fitHeight="65.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
                <image>

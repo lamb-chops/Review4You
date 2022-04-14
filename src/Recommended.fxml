@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.media.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.chart.*?>
@@ -10,19 +11,40 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.RecommendedController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#88c2f8" height="600.0" stroke="#88c2f8" strokeType="INSIDE" width="150.0" />
-      <TextArea layoutX="26.0" layoutY="29.0" prefHeight="51.0" prefWidth="98.0" text="Review 4 You&#10;(LOGO HERE)" />
-      <Button layoutX="26.0" layoutY="100.0" mnemonicParsing="false" text="Page1" />
-      <Button layoutX="26.0" layoutY="158.0" mnemonicParsing="false" text="Page2" />
-      <Button layoutX="26.0" layoutY="222.0" mnemonicParsing="false" text="Page3" />
-      <Button layoutX="26.0" layoutY="275.0" mnemonicParsing="false" text="Page4" />
-      <Pagination layoutX="165.0" layoutY="25.0" prefHeight="193.0" prefWidth="425.0" />
-      <TextArea layoutX="172.0" layoutY="20.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
-      <Pagination layoutX="165.0" layoutY="235.0" prefHeight="193.0" prefWidth="425.0" />
-      <TextArea layoutX="179.0" layoutY="224.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Homepage.png" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="11.0" layoutY="333.0" mnemonicParsing="false" onAction="#navHome" text="Home">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../HomeLink.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="11.0" layoutY="416.0" mnemonicParsing="false" onAction="#navToReview" text="Review">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Review.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="11.0" layoutY="501.0" mnemonicParsing="false" onAction="#navToFaq" text="FAQ">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../FAQ.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Pagination layoutX="274.0" layoutY="526.0" prefHeight="193.0" prefWidth="425.0" />
+      <TextArea layoutX="287.0" layoutY="224.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
+      <Pagination layoutX="266.0" layoutY="213.0" prefHeight="193.0" prefWidth="425.0" />
+      <TextArea layoutX="280.0" layoutY="526.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
    </children>
 </AnchorPane>
-
