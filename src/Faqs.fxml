@@ -41,7 +41,6 @@
       <TextField fx:id="txtFAQ" layoutX="278.0" layoutY="497.0" prefHeight="168.0" prefWidth="425.0" />
       <Button layoutX="428.0" layoutY="672.0" mnemonicParsing="false" onAction="#processFAQ" text="Ask Your Question" />
       <Label layoutX="375.0" layoutY="456.0" prefHeight="30.0" prefWidth="220.0" text="Type in your concerns or questions here!" />
-      <Label layoutX="84.0" layoutY="159.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
       <Label layoutX="595.0" layoutY="212.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
       <Label layoutX="322.0" layoutY="212.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />
       <Label layoutX="586.0" layoutY="320.0" prefHeight="137.0" prefWidth="177.0" text="Questions" />

@@ -40,6 +40,5 @@
       <TextArea layoutX="291.0" layoutY="288.0" prefHeight="225.0" prefWidth="444.0" />
       <Button layoutX="681.0" layoutY="523.0" mnemonicParsing="false" text="Submit" />
       <ChoiceBox layoutX="291.0" layoutY="247.0" prefWidth="150.0" />
-      <Label layoutX="135.0" layoutY="140.0" text="Select Place:" />
 </children>
 </AnchorPane>
