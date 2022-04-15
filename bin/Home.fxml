@@ -19,27 +19,27 @@
             <Image url="@../../newHomePage.png" />
          </image>
       </ImageView>
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="327.0" mnemonicParsing="false" onAction="#navToRecommended" text="Recommended">
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="282.0" mnemonicParsing="false" onAction="#navToRecommended" text="Recommended">
          <graphic>
-            <ImageView fitHeight="65.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../recommended.png" />
+                  <Image url="@../../linkSuggested.png" />
                </image>
             </ImageView>
          </graphic></Button>
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="419.0" mnemonicParsing="false" onAction="#navToReview" text="Review">
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="380.0" mnemonicParsing="false" onAction="#navToReview" text="Review">
          <graphic>
-            <ImageView fitHeight="65.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../Review.png" />
+                  <Image url="@../../linkReview.png" />
                </image>
             </ImageView>
          </graphic></Button>
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="508.0" mnemonicParsing="false" onAction="#navToFaqs" text="FAQs">
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="476.0" mnemonicParsing="false" onAction="#navToFaqs" text="FAQs">
          <graphic>
-            <ImageView fitHeight="60.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../FAQ.png" />
+                  <Image url="@../../linkFAQ.png" />
                </image>
             </ImageView>
          </graphic></Button>
