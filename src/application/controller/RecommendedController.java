@@ -13,11 +13,11 @@ public class RecommendedController {
 	@FXML	
 	  private TextField txtFAQ;
 		
-		Review Review;
+		Review review;
 		Home home;
 		Faq faq;
 		public RecommendedController() {
-			Review = new Review();
+			review = new Review();
 			home = new Home();
 			faq = new Faq();
 		}
@@ -30,7 +30,7 @@ public class RecommendedController {
 
 	    @FXML
 	    void navToReview(ActionEvent event) {
-	    	Scene scene = Review.getScene();
+	    	Scene scene = review.getScene();
 	    	Home.stage.setScene(scene);
 	    }
 

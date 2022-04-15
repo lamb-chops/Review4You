@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ReviewController">
    <children>
-      <Label layoutX="13.0" layoutY="14.0" prefHeight="53.0" prefWidth="774.0" style="-fx-border-color: grey;" />
-      <Button layoutX="25.0" layoutY="28.0" mnemonicParsing="false" text="Home" />
-      <Button layoutX="731.0" layoutY="29.0" mnemonicParsing="false" text="FAQs" />
-      <Button layoutX="500.0" layoutY="28.0" mnemonicParsing="false" text="Review a Place" />
-      <Button layoutX="200.0" layoutY="28.0" mnemonicParsing="false" text="Places To Visit" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="80.0" prefHeight="40.0" prefWidth="774.0" style="-fx-border-color: grey; -fx-border-width: 2;" text="Review a Place">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <TextArea layoutX="94.0" layoutY="170.0" prefHeight="214.0" prefWidth="615.0" />
-      <Button layoutX="634.0" layoutY="408.0" mnemonicParsing="false" text="Submit" />
-      <ChoiceBox layoutX="216.0" layoutY="136.0" prefWidth="150.0" />
+      <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../newReview.png" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="272.0" mnemonicParsing="false" onAction="#navHome" text="Home">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../linkHome.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="463.0" mnemonicParsing="false" onAction="#navToFaq" text="FAQs">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../linkFAQ.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="364.0" mnemonicParsing="false" onAction="#navToSuggested" text="Places To Visit">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../linkSuggested.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextArea layoutX="291.0" layoutY="288.0" prefHeight="225.0" prefWidth="444.0" />
+      <Button layoutX="681.0" layoutY="523.0" mnemonicParsing="false" text="Submit" />
+      <ChoiceBox layoutX="291.0" layoutY="247.0" prefWidth="150.0" />
       <Label layoutX="135.0" layoutY="140.0" text="Select Place:" />
 </children>
 </AnchorPane>
