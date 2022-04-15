@@ -16,7 +16,7 @@
    <children>
       <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Homepage.png" />
+            <Image url="@../../newHomePage.png" />
          </image>
       </ImageView>
       <Button contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="327.0" mnemonicParsing="false" onAction="#navToRecommended" text="Recommended">
@@ -43,7 +43,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <TextArea layoutX="326.0" layoutY="118.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through or slide show of recommend places (hardcoded)" wrapText="true" />
-      <TextArea layoutX="259.0" layoutY="346.0" prefHeight="175.0" prefWidth="398.0" text="Scroll through or slide show of recent places (hardcoded)" wrapText="true" />
+      <TextArea layoutX="308.0" layoutY="300.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through or slide show of recommend places (hardcoded)" wrapText="true" />
+      <TextArea layoutX="308.0" layoutY="498.0" prefHeight="175.0" prefWidth="398.0" text="Scroll through or slide show of recent places (hardcoded)" wrapText="true" />
    </children>
 </AnchorPane>
