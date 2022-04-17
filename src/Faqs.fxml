@@ -11,14 +11,14 @@
    <children>
       <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../newFAQ.png" />
+            <Image url="@../other/newFAQ.png" />
          </image>
       </ImageView>
       <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="276.0" mnemonicParsing="false" onAction="#navHome" prefHeight="30.0" prefWidth="70.0" text="Home">
          <graphic>
             <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../linkHome.png" />
+                  <Image url="@../other/linkHome.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -26,7 +26,7 @@
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../linkReview.png" />
+                  <Image url="@../other/linkReview.png" />
                </image>
             </ImageView>
          </graphic></Button>
@@ -34,7 +34,7 @@
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../linkSuggested.png" />
+                  <Image url="@../other/linkSuggested.png" />
                </image>
             </ImageView>
          </graphic></Button>
