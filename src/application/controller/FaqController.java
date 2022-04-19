@@ -43,7 +43,7 @@ public class FaqController {
     	String key=txtFAQ.getText().toString().toLowerCase();
     	key.replaceAll("[\\n\\t ]", "");
     	if(key.trim().isEmpty()) {
-    		txtFAQ.setText("Please be sure to type your concern!\n");
+    		txtFAQ.setPromptText("\t\t\tPlease be sure to type your concern!\n");
     	}
     	else{
     		Faq.processedFaq(key);
