@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ReviewController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../other/newReview.png" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="272.0" mnemonicParsing="false" onAction="#navHome" text="Home">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../other/linkHome.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="463.0" mnemonicParsing="false" onAction="#navToFaq" text="FAQs">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../other/linkFAQ.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="364.0" mnemonicParsing="false" onAction="#navToSuggested" text="Places To Visit">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../other/linkSuggested.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextArea layoutX="291.0" layoutY="288.0" prefHeight="225.0" prefWidth="444.0" />
+      <Button layoutX="681.0" layoutY="523.0" mnemonicParsing="false" text="Submit" />
+      <ChoiceBox layoutX="291.0" layoutY="247.0" prefWidth="150.0" />
+</children>
+</AnchorPane>
