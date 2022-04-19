@@ -1,16 +1,17 @@
 package application.controller;
 
 import application.Home;
+import application.model.Faq;
 import application.model.Recommended;
 import application.model.Review;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
-import javafx.scene.control.TextField;
+import javafx.scene.control.TextArea;
 
 public class FaqController {
 	@FXML
-    private TextField txtFAQ;
+    private TextArea txtFAQ;
 	
 	Review review;
 	Recommended recommended;
@@ -39,6 +40,16 @@ public class FaqController {
 
     @FXML
     void processFAQ(ActionEvent event) {
+    	String key=txtFAQ.getText().toString().toLowerCase();
+    	key.replaceAll("[\\n\\t ]", "");
+    	if(key.trim().isEmpty()) {
+    		txtFAQ.setText("Please be sure to type your concern!\n");
+    	}
+    	else{
+    		Faq.processedFaq(key);
+    		txtFAQ.clear();
+    		txtFAQ.setText("Your concern: \n\n" + "\"" + key + "\"" + "\n\n"+"has been sent to our folks! Thank you for your time!\n");
+    	}
 
     }
 }

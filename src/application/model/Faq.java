@@ -8,6 +8,10 @@ import javafx.scene.layout.AnchorPane;
 
 public class Faq {
 	public Scene scene;
+	
+	public static void processedFaq(String key) {
+		return;
+	}
 	public Scene getScene() {
 		if (scene == null) { //checking if scene null before creating scene again
 			scene = createScene();
