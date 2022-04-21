@@ -37,8 +37,8 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <TextArea layoutX="291.0" layoutY="288.0" prefHeight="225.0" prefWidth="444.0" />
-      <Button layoutX="681.0" layoutY="523.0" mnemonicParsing="false" text="Submit" />
-      <ChoiceBox layoutX="291.0" layoutY="247.0" prefWidth="150.0" />
+      <TextArea fx:id="reviewText" layoutX="291.0" layoutY="288.0" prefHeight="225.0" prefWidth="444.0" />
+      <Button layoutX="681.0" layoutY="523.0" mnemonicParsing="false" onAction="#clickSubmit" text="Submit" />
+      <ComboBox fx:id="placeList" layoutX="291.0" layoutY="247.0" prefWidth="150.0" />
 </children>
 </AnchorPane>
