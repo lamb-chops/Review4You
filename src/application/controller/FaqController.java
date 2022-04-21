@@ -1,3 +1,17 @@
+/**
+ * FaqController.java
+ *This controls the FAQ page
+ *and is control of recieving the button inputs
+ *and doing proper action based on input
+ *
+ *Process faq make sure user followed proper 
+ *format and then stores question or concern
+ *void navHome, navToReview, navToPlaces, constructor
+ * @author Thomas Jondahl (rbs287)
+ * UTSA CS 3443 - Lab 5
+ * Spring 2022
+ */
+
 package application.controller;
 
 import application.Home;

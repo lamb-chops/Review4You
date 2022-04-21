@@ -1,3 +1,15 @@
+/**
+ * Faq.java
+ * 
+ * This is responsible for launching the FAQ
+ * scene which involves a get scene function 
+ * and create scene function based on faq fxml
+ * 
+ * @author Thomas Jondahl (rbs287)
+ * UTSA CS 3443 - Lab 5
+ * Spring 2022
+ */
+
 package application.model;
 
 import java.io.IOException;
