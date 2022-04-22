@@ -28,6 +28,7 @@ public class HomeController {
     private TextArea recommend, recent;
 	
 	//generator, called when homecontroller class is called from another file
+	//no return types or params, as it is initializing variables for the class
 	public HomeController() {
 		faq = new Faq();
 		review = new Review();
@@ -36,6 +37,7 @@ public class HomeController {
 	
 	//init method, called when object is first created to set up class state
 	//Reads in the two files line by line and appends to appropriate textarea
+	//void return type as it is setting up object state only
 	 public void initialize() {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader("./other/suggested.txt"));
@@ -49,7 +51,6 @@ public class HomeController {
 		} catch(IOException e) {
 			e.printStackTrace();		
 		}
-		
 		try {
 			BufferedReader br = new BufferedReader(new FileReader("./other/locations.txt"));
 			String line = br.readLine();
@@ -57,14 +58,14 @@ public class HomeController {
 			while(line != null) {
 				recent.appendText(line+"\n");
 				line = br.readLine();
-			}
-			
+			}	
 			br.close();
 		} catch(IOException e) {
 			e.printStackTrace();		
 		}
     }
 	//These last methods are to navigate to the relevant page when clicked on in the fxml file
+	 //void as the method changes the fxml page only, takes actionevent as param
 	@FXML
     void navToFaqs(ActionEvent event) {
 		Scene scene = faq.getScene();
@@ -78,7 +79,6 @@ public class HomeController {
 	@FXML
     void navToReview(ActionEvent event) {
 		Scene scene = review.getScene();
-    	Home.stage.setScene(scene);
-    
+    	Home.stage.setScene(scene);   
     }
 }

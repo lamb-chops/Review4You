@@ -6,10 +6,16 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
 
+/**
+ * This is the launch section of the app. When ran, the stage and
+ * scene are first set to display our opening home page
+ */
 public class Home extends Application {
 	public static Stage stage;
 	public static Scene scene;
 	//function to create primary stage
+	//void because it only sets the stage and scene, nothing to return
+	//takes stage as param, so the start method knows which stage to load.
 	@Override
 	public void start(Stage primaryStage) {
 			stage = primaryStage;
@@ -18,6 +24,7 @@ public class Home extends Application {
 			stage.setScene(scene);
 			stage.show();
 	}
+	//Loads the home fxml file, and returns the scene to be set in the app
 	public Scene createScene() {
 		AnchorPane root;
 		Scene scene = null;
@@ -26,7 +33,6 @@ public class Home extends Application {
 			scene = new Scene(root,800,800); //setting size of window
 			return scene;
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return scene;
