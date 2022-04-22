@@ -8,7 +8,7 @@
  *format and then stores question or concern
  *void navHome, navToReview, navToPlaces, constructor
  * @author Thomas Jondahl (rbs287)
- * UTSA CS 3443 - Lab 5
+ * UTSA CS 3443 - Semester Project
  * Spring 2022
  */
 

@@ -6,7 +6,7 @@
  * and create scene function based on faq fxml
  * 
  * @author Thomas Jondahl (rbs287)
- * UTSA CS 3443 - Lab 5
+ * UTSA CS 3443 - Semester project
  * Spring 2022
  */
 
