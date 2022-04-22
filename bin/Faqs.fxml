@@ -40,38 +40,42 @@
             </ImageView>
          </graphic></Button>
       <Button layoutX="451.0" layoutY="717.0" mnemonicParsing="false" onAction="#processFAQ" text="Ask Your Question" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="252.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="239.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="517.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="239.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="517.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="239.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="252.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="239.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="73.0" layoutX="386.0" layoutY="448.0" stroke="#8c9ea3" strokeType="INSIDE" width="239.0" />
-      <Label layoutX="396.0" layoutY="549.0" prefHeight="30.0" prefWidth="220.0" text="Type in your concerns or questions here!" />
-      <Label layoutX="527.0" layoutY="229.0" prefHeight="38.0" prefWidth="216.0" text="How did our site get started?">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="252.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="527.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="527.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="252.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="73.0" layoutX="377.0" layoutY="447.0" stroke="#8c9ea3" strokeType="INSIDE" width="286.0" />
+      <Label layoutX="374.0" layoutY="552.0" prefHeight="30.0" prefWidth="274.0" text="Type in your concerns or questions here!" />
+      <Label layoutX="527.0" layoutY="229.0" prefHeight="38.0" prefWidth="239.0" text="How did our app get started?" textAlignment="CENTER" underline="true" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font></Label>
-      <Label layoutX="260.0" layoutY="229.0" prefHeight="38.0" prefWidth="191.0" text="How does Review4You work?">
+      <Label layoutX="252.0" layoutY="229.0" prefHeight="38.0" prefWidth="258.0" text="How does Review4You work?" textAlignment="CENTER" underline="true" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font></Label>
-      <Label layoutX="527.0" layoutY="334.0" prefHeight="38.0" prefWidth="177.0" text="Where can I make suggestions?">
+      <Label layoutX="527.0" layoutY="334.0" prefHeight="38.0" prefWidth="258.0" text="Where can I make suggestions?" textAlignment="CENTER" underline="true" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font></Label>
-      <Label layoutX="260.0" layoutY="335.0" prefHeight="38.0" prefWidth="204.0" text="What is the purpose of Review4You?">
+      <Label layoutX="253.0" layoutY="334.0" prefHeight="38.0" prefWidth="258.0" text="What is the purpose of Review4You?" textAlignment="CENTER" underline="true" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font></Label>
       <Label alignment="CENTER" layoutX="398.0" layoutY="567.0" prefHeight="30.0" prefWidth="220.0" text="we will be with you shortly!" />
-      <Label alignment="CENTER" layoutX="382.0" layoutY="445.0" prefHeight="38.0" prefWidth="247.0" text="My app isn't working, who do I contact?">
+      <Label alignment="CENTER" layoutX="377.0" layoutY="439.0" prefHeight="38.0" prefWidth="286.0" text="My app isn't working, who do I contact?" textAlignment="CENTER" underline="true" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="425.0" layoutY="471.0" prefHeight="38.0" prefWidth="163.0" text="Answer" />
-      <TextArea fx:id="txtFAQ" layoutX="296.0" layoutY="597.0" prefHeight="114.0" prefWidth="420.0" promptText="&#9;&#9;&#9;&#9;&#9;Type here please!&#10;">
+      <Label alignment="CENTER" layoutX="377.0" layoutY="471.0" prefHeight="51.0" prefWidth="286.0" text="We do not currently have a full time Dev team. If your app does not work, please let us know in the suggestion box below." wrapText="true" />
+      <TextArea fx:id="txtFAQ" layoutX="296.0" layoutY="597.0" prefHeight="114.0" prefWidth="420.0" promptText="&#9;&#9;&#9;&#9;Type here please!&#10;">
          <font>
             <Font name="Georgia Bold" size="14.0" />
          </font></TextArea>
+      <Label alignment="CENTER" layoutX="253.0" layoutY="267.0" prefHeight="57.0" prefWidth="258.0" text="You can browse new locations, or view and leave reviews for previous places visited" wrapText="true" />
+      <Label alignment="CENTER" layoutX="527.0" layoutY="267.0" prefHeight="57.0" prefWidth="258.0" text="Our idea came from the desire to assist others in location the best spots in town!" wrapText="true" />
+      <Label alignment="CENTER" layoutX="253.0" layoutY="372.0" prefHeight="57.0" prefWidth="258.0" text="Review4You is designed to easily find your next place of entertainment and fun." wrapText="true" />
+      <Label alignment="CENTER" layoutX="527.0" layoutY="372.0" prefHeight="57.0" prefWidth="258.0" text="Any and all feedback is greatly appreciated! Please you the textbox below to enter your great idea." wrapText="true" />
    </children>
 </AnchorPane>

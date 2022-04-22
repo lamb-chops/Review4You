@@ -42,9 +42,8 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Pagination layoutX="280.0" layoutY="501.0" prefHeight="193.0" prefWidth="425.0" />
-      <TextArea layoutX="287.0" layoutY="224.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
-      <Pagination layoutX="267.0" layoutY="251.0" prefHeight="193.0" prefWidth="425.0" />
-      <TextArea layoutX="287.0" layoutY="478.0" prefHeight="153.0" prefWidth="398.0" text="Scroll through either recommended or recent reviews here" wrapText="true" />
+      <TextArea fx:id="reviewField" layoutX="287.0" layoutY="314.0" prefHeight="337.0" prefWidth="398.0" wrapText="true" />
+      <Label text="Label" />
+      <Label layoutX="398.0" layoutY="271.0" prefHeight="43.0" prefWidth="176.0" text="Our most recent reviews:" />
    </children>
 </AnchorPane>

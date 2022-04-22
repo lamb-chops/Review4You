@@ -1,16 +1,23 @@
 package application.controller;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
+
 import application.Home;
 import application.model.Faq;
 import application.model.Recommended;
 import application.model.Review;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.TextArea;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 /**
  * The HomeController handles the flow of data between Home.java and 
@@ -32,7 +39,7 @@ public class HomeController {
 	public HomeController() {
 		faq = new Faq();
 		review = new Review();
-		recommended = new Recommended();
+		//recommended = new Recommended();
 	}
 	
 	//init method, called when object is first created to set up class state
@@ -73,9 +80,17 @@ public class HomeController {
     }
 	@FXML
     void navToRecommended(ActionEvent event) {
-			Scene scene = recommended.getScene();
-	    	Home.stage.setScene(scene);
-	    }
+		try {
+			URL url = new File("src/Recommended.fxml").toURI().toURL();
+			AnchorPane anchor = FXMLLoader.load(url);
+			Scene scene = new Scene(anchor);
+			Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+			window.setScene(scene);
+			window.show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
 	@FXML
     void navToReview(ActionEvent event) {
 		Scene scene = review.getScene();
