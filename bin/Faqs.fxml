@@ -39,13 +39,13 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="451.0" layoutY="717.0" mnemonicParsing="false" onAction="#processFAQ" text="Ask Your Question" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="252.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="527.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="527.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="252.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="258.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="73.0" layoutX="377.0" layoutY="447.0" stroke="#8c9ea3" strokeType="INSIDE" width="286.0" />
-      <Label layoutX="374.0" layoutY="552.0" prefHeight="30.0" prefWidth="274.0" text="Type in your concerns or questions here!" />
+      <Button layoutX="462.0" layoutY="721.0" mnemonicParsing="false" onAction="#processFAQ" text="Ask Your Question" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="249.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="264.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="525.0" layoutY="236.0" stroke="#8c9ea3" strokeType="INSIDE" width="264.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="524.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="264.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="89.0" layoutX="249.0" layoutY="339.0" stroke="#8c9ea3" strokeType="INSIDE" width="264.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c9ea3" height="81.0" layoutX="371.0" layoutY="447.0" stroke="#8c9ea3" strokeType="INSIDE" width="295.0" />
+      <Label layoutX="412.0" layoutY="552.0" prefHeight="30.0" prefWidth="216.0" text="Type in your concerns or questions here!" />
       <Label layoutX="527.0" layoutY="229.0" prefHeight="38.0" prefWidth="239.0" text="How did our app get started?" textAlignment="CENTER" underline="true" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="12.0" />
@@ -62,14 +62,14 @@
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font></Label>
-      <Label alignment="CENTER" layoutX="398.0" layoutY="567.0" prefHeight="30.0" prefWidth="220.0" text="we will be with you shortly!" />
+      <Label alignment="CENTER" layoutX="410.0" layoutY="567.0" prefHeight="30.0" prefWidth="220.0" text="we will be with you shortly!" />
       <Label alignment="CENTER" layoutX="377.0" layoutY="439.0" prefHeight="38.0" prefWidth="286.0" text="My app isn't working, who do I contact?" textAlignment="CENTER" underline="true" wrapText="true">
          <font>
             <Font name="System Bold Italic" size="12.0" />
          </font>
       </Label>
       <Label alignment="CENTER" layoutX="377.0" layoutY="471.0" prefHeight="51.0" prefWidth="286.0" text="We do not currently have a full time Dev team. If your app does not work, please let us know in the suggestion box below." wrapText="true" />
-      <TextArea fx:id="txtFAQ" layoutX="296.0" layoutY="597.0" prefHeight="114.0" prefWidth="420.0" promptText="&#9;&#9;&#9;&#9;Type here please!&#10;">
+      <TextArea fx:id="txtFAQ" layoutX="310.0" layoutY="597.0" prefHeight="114.0" prefWidth="420.0" promptText="&#9;&#9;&#9;&#9;Type here please!&#10;">
          <font>
             <Font name="Georgia Bold" size="14.0" />
          </font></TextArea>

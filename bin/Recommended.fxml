@@ -43,7 +43,6 @@
             </ImageView>
          </graphic></Button>
       <TextArea fx:id="reviewField" layoutX="287.0" layoutY="314.0" prefHeight="337.0" prefWidth="398.0" wrapText="true" />
-      <Label text="Label" />
       <Label layoutX="398.0" layoutY="271.0" prefHeight="43.0" prefWidth="176.0" text="Our most recent reviews:" />
    </children>
 </AnchorPane>
