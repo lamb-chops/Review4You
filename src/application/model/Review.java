@@ -11,6 +11,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.layout.AnchorPane;
 
+// Review class contains data manipulation functions for the ReviewController/Review.fxml
 public class Review {
 		
 	public Scene scene;
@@ -24,6 +25,7 @@ public class Review {
 		this.scene = scene;
 	}
 
+	// Creates and loads the scene with the Review.fxml file
 	public Scene createScene() {
 		AnchorPane root;
 		Scene scene = null;
@@ -37,6 +39,8 @@ public class Review {
 		}
 		return scene;
 	}
+	
+	// This function takes in a ComboBox that will be set to all the locations that can be reviewed
 	public static void loadData(ComboBox<String> placeList) {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader("./other/locations.txt"));
@@ -55,13 +59,16 @@ public class Review {
 		}
 		
 	}
+	
+	// Takes in two strings one being the user's review and the other the location
+	// Data is then written to reviews.txt
 	public static void createReview(String review, String location) {
 		
 		File file = new File("./other/reviews.txt");
 		BufferedWriter bf = null;
 		
 		try {
-			bf = new BufferedWriter(new FileWriter(file, true));	
+			bf = new BufferedWriter(new FileWriter(file, true));
 				bf.write(location + "," + review);
 				bf.newLine();
 				
