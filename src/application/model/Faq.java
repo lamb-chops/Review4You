@@ -21,12 +21,12 @@ import javafx.scene.layout.AnchorPane;
 public class Faq {
 	public Scene scene;
 	
-	public static void processedFaq(String key) {
+	public static void processedFaq(String key) { // function that controls what is done with text area string
 		return;
 	}
 	public Scene getScene() {
 		if (scene == null) { //checking if scene null before creating scene again
-			scene = createScene();
+			scene = createScene(); //calling create scene function into scene
 		}
 		return scene;
 	}
@@ -44,7 +44,7 @@ public class Faq {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return scene;
+		return scene; //returns scene
 	}
 
 }
